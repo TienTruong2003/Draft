@@ -1,0 +1,53 @@
+#container {
+  display: grid;
+  grid-template-columns: 20% 55% 25%;
+  grid-template-rows: 80px 20px 120px 240px 70px;
+}
+
+#banner {
+  background-color: lightblue;
+  grid-column: 1/4;
+}
+
+#menu {
+  background-color: red;
+  grid-column: 1/4;
+}
+#leftbar1 {
+  background-color: green;
+}
+#item {
+  background-color: darkblue;
+}
+
+#rightbar {
+  display: grid;
+  grid-template-rows: auto auto;
+}
+
+#rightitem1 {
+  background-color: lightblue;
+}
+#rightitem2 {
+  background-color: violet;
+}
+
+#leftbar2 {
+  display: grid;
+  grid-template-rows: auto auto;
+}
+#leftitem1 {
+  background-color: lightcyan;
+}
+
+#leftitem2 {
+  background-color: orange;
+}
+#content {
+  background-color: chartreuse;
+  grid-column: 2/4;
+}
+#footer {
+  background-color: blue;
+  grid-column: 1/4;
+}

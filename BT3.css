@@ -1,0 +1,38 @@
+#container {
+  display: grid;
+  grid-template-columns: 20% 50% 30%;
+  grid-template-rows: 80px 20px 100px 100px 200px 100px;
+}
+
+#banner {
+  background-color: lightblue;
+  grid-column: 1/4;
+}
+
+#menu {
+  background-color: red;
+  grid-column: 1/4;
+}
+#content1 {
+  background-color: blue;
+  grid-column: 1/3;
+  grid-row: 3/5;
+}
+#rightbar1 {
+  background-color: lavender;
+}
+#rightbar2 {
+  background-color: blueviolet;
+}
+#leftbar {
+  background-color: rgb(255, 183, 0);
+  grid-column: 1/2;
+}
+#content2 {
+  background-color: rgb(195, 255, 15);
+  grid-column: 2/4;
+}
+#footer {
+  background-color: blue;
+  grid-column: 1/4;
+}

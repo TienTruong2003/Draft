@@ -1,0 +1,34 @@
+#container {
+  display: grid;
+  grid-template-columns: 150px 500px 150px;
+  grid-template-rows: 200px 30px 60px 30px 30px 50px;
+}
+
+#banner {
+  background-color: red;
+  grid-column: 1/4;
+}
+
+#menu {
+  background-color: darkolivegreen;
+  grid-column: 1/4;
+}
+#leftbar {
+  background-color: violet;
+  grid-row: 3/5;
+}
+#content {
+  background-color: limegreen;
+}
+#rightbar {
+  background-color: #f90;
+}
+#bottom {
+  background-color: #cf0;
+
+  grid-column: 1/4;
+}
+#footer {
+  background-color: #f66;
+  grid-column: 1/4;
+}
